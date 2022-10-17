@@ -2,6 +2,7 @@ package numbers;
 
 public class Numbers {
 
+	private int numbers = 12345;
 	public static void sum(){
 		
 	}
