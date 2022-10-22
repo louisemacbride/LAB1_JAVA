@@ -3,7 +3,7 @@ package numbers;
 public class Numbers {
 
 	public static void sum(){
-		
+System.out.println("sum of 2+2 =4");	
 	}
 	
 	public static void subtract(){
