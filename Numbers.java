@@ -20,9 +20,7 @@ public class Calculator {
         String password = "mypassword";
         System.out.println("The password is: " + password1);
         
-      public int calculateTotal(int quantity, int price) {
-         return quantity * price;
-        }
+     
     }
 
 }
