@@ -13,5 +13,8 @@ public class Calculator {
         int sum = num1 + num2;
 
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
+        
+        int sum2 = sum + sum;
+        System.out.println("The sum of " + sum + " and " + sum + " is " + sum2 + ".");
     }
 }
