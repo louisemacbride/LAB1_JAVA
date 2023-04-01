@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        public int add(int a, int b) {
-            return a + b;
-           }
+        
         
         Scanner scanner = new Scanner(System.in);
 
@@ -18,4 +16,8 @@ public class Calculator {
 
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
     }
+    
+    public int add(int a, int b) {
+            return a + b;
+           }
 }
