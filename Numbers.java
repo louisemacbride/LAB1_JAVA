@@ -15,9 +15,9 @@ public class Calculator {
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
         
         int sum2 = sum + sum;
-        System.out.println("The sum of " + sum + " and " + sum + " is " + sum2 + ".");
+        System.out.println("The sum of " + sum + " and " + sum + " is " + sum3 + ".");
         
         String password = "mypassword";
-        System.out.println("The password is: " + password);
+        System.out.println("The password is: " + password1);
     }
 }
