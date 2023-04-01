@@ -1,26 +1,17 @@
-package numbers;
+import java.util.Scanner;
 
-public class Numbers {
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-	public static void sum(){
-		
-	}
-	
-	public static void subtract(){
-	
-	}
-	
-	public static void largest(){
-		
-	}
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
 
-	public static void smallest(){
-		
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
 
-	}
+        int sum = num1 + num2;
 
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
+    }
 }
