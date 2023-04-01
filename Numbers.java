@@ -19,5 +19,13 @@ public class Calculator {
         
         String password = "mypassword";
         System.out.println("The password is: " + password1);
+        
+        
+        SecureRandom sr = new SecureRandom();
+        sr.setSeed(123456L); // Noncompliant
+        int v = sr.next(32);
+
+        sr = new SecureRandom("abcdefghijklmnop".getBytes("us-ascii")); // Noncompliant
+        v = sr.next(32);
     }
 }
