@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        public int add(int a, int b) {
+            return a + b;
+           }
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
